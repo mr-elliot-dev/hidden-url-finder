@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+venv/
+env/
+hidden-finder-env/
+.vscode/
+.idea/
+*.log
+output/
+*.json
+!requirements.txt
