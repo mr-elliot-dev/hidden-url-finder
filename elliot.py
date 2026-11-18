@@ -11,7 +11,7 @@
            H I D D E N   U R L   F I N D E R
                     Elliot   |  v1.0
 
-  Author : Light
+  Author : Nur
   GitHub : https://github.com/YOUR_USERNAME/hidden_url_finder
   License: MIT
 
