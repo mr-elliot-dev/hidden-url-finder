@@ -1,16 +1,17 @@
-<div align="center">
+ <div align="center">
 
 ```text
-███████╗██╗     ██╗     ██║ ██████╗ ████████╗
+███████╗██╗     ██╗     ██╗ ██████╗ ████████╗
 ██╔════╝██║     ██║     ██║██╔═══██╗╚══██╔══╝
-█████╗  ██║     ██║     ██║██║   ██║   ██║   
-██╔══╝  ██║     ██║     ██║██║   ██║   ██║   
-███████╗███████╗███████╗██║╚██████╔╝   ██║   
-╚══════╝╚══════╝╚══════╝╚═╝ ╚═════╝    ╚═╝   
-─────────────────────────────────────────────
-      [  H I D D E N   U R L   F I N D E R  ]
-          v1.0   •   A U T H O R :  N U R
-─────────────────────────────────────────────
+█████╗  ██║     ██║     ██║██║   ██║   ██║
+██╔══╝  ██║     ██║     ██║██║   ██║   ██║
+███████╗███████╗███████╗██║╚██████╔╝   ██║
+╚══════╝╚══════╝╚══════╝╚═╝ ╚═════╝    ╚═╝
+
+       H I D D E N   U R L   F I N D E R
+             E L L I O T  |  v1.0
+             A U T H O R :  N U R
+```
 
 # 🕵️ Hidden URL Finder
 
@@ -77,7 +78,7 @@ pip install -r requirements.txt
 ### 6. Run the Tool
 
 ```bash
-python3 hidden_url_finder.py -u https://example.com
+python3 elliot.py -u https://example.com
 ```
 
 ## 💻 Usage
@@ -85,13 +86,13 @@ python3 hidden_url_finder.py -u https://example.com
 ### Basic Scan
 
 ```bash
-python3 hidden_url_finder.py -u https://example.com
+python3 elliot.py -u https://example.com
 ```
 
 ### Custom Wordlist and JSON Output
 
 ```bash
-python3 hidden_url_finder.py -u https://example.com \
+python3 elliot.py-u https://example.com \
     -w /usr/share/wordlists/dirb/common.txt \
     -o results.json
 ```
@@ -99,13 +100,13 @@ python3 hidden_url_finder.py -u https://example.com \
 ### Rate-Limited Scan
 
 ```bash
-python3 hidden_url_finder.py -u https://example.com -d 1.0
+python3 elliot.py -u https://example.com -d 1.0
 ```
 
 ### Deep Crawl
 
 ```bash
-python3 hidden_url_finder.py -u https://example.com --depth 3
+python3 elliot.py -u https://example.com --depth 3
 ```
 
 *Only scan websites you own or have explicit permission to test.*
@@ -183,7 +184,7 @@ python3 hidden_url_finder.py -u https://example.com --depth 3
 ```text
 hidden-url-finder/
 │
-├── hidden_url_finder.py
+├── elliot.py.py
 ├── requirements.txt
 ├── README.md
 ├── LICENSE
